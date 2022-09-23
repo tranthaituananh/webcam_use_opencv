@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="google-site-verification" content="sE_VBVaFx6GD4hRrsMltkOcRzsf2DGFd4yk4aVipVoE" />
+	<link rel="stylesheet" href="index.css" />
+	<script src="webcam.js"></script>
+	<script async src="opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+	<title>Webcam</title>
+</head>
+<body>
+	<div class="c1">
+		<div class="c2">
+			<h2 class="c3">Webcam</h2>
+			<video id="video" width="50%" height="50%" autoplay></video>
+			<br>
+			<div class="btns">
+				<a href="#!" class="btn btn-danger" onClick="stop()">
+					<button class="button">Stop Cam</button>
+				</a>
+				<a href="#!" class="btn btn-success" onClick="start()">
+					<button class="button">Start Cam</button>
+				</a>
+			</div>
+			<ul class="l1">
+				<li>Made with ♥️ by <a href="https://github.com/tranthaituananh">Tran Thai Tuan Anh</a></li>
+			</ul>
+			<ul class="l1">
+				<li>Use OpencvJS + Neural Network</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
